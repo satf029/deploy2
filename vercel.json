@@ -14,5 +14,8 @@
             "src": "/(.*)",
             "dest": "python_vercel_task/wsgi.py"
         }
-    ]
+    ],
+    "env": {
+        "DJANGO_SETTINGS_MODULE": "python_vercel_task.settings"
+    }
 }
